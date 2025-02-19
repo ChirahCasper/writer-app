@@ -1,0 +1,49 @@
+.ratings-carousel {
+    max-width: 100%;
+    background: #121212;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .ratings-carousel:hover {
+    transform: scale(1.02);
+  }
+  
+  .ratings-carousel h4 {
+    font-size: 20px;
+    color: #d8d5c5;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .rating-item {
+    padding: 15px;
+  }
+  
+  .review-text {
+    font-size: 18px;
+    font-style: italic;
+    color: #d4d2c9;
+    text-shadow: 1px 1px 10px rgba(255, 215, 0, 0.3);
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #e0c6c2;
+  }
+  
+  .stars {
+    font-size: 20px;
+    color: #9a988f;
+    margin-top: 5px;
+    text-shadow: 1px 1px 10px rgba(255, 215, 0, 0.5);
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+  }
+  

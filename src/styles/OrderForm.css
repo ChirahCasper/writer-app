@@ -1,0 +1,185 @@
+/* General Styling */
+.order-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    color: #444;
+}
+
+/* Input Fields */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* File Upload */
+input[type="file"] {
+    border: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #006633;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #004d26;
+}
+
+/* Active Buttons */
+button.active {
+    background-color: #004d26;
+    color: white;
+}
+
+/* Academic Level, Paper Format, Deadline, Category */
+.academic-levels, .paper-formats, .deadline-options, .category-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.academic-levels button, 
+.paper-formats button, 
+.deadline-options button, 
+.category-options button {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    color: #444;
+    transition: 0.3s;
+}
+
+.academic-levels button.active,
+.paper-formats button.active,
+.deadline-options button.active,
+.category-options button.active {
+    background: #006633;
+    color: white;
+    border-color: #006633;
+}
+
+/* Number Input Controls */
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter button {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    color: #444;
+}
+
+.counter span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Currency Options */
+.currency-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.currency-options button {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    color: #444;
+    transition: 0.3s;
+}
+
+.currency-options button.active {
+    background: #006633;
+    color: white;
+    border-color: #006633;
+}
+
+/* Discount Code Section */
+.apply-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: #ff8c00;
+    border-color: #ff8c00;
+}
+
+.apply-btn:hover {
+    background: #e67600;
+}
+
+/* Additional Services Checkboxes */
+.additional-services {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.additional-services label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    margin-top: 20px;
+    background: #006633;
+}
+
+.submit-btn:hover {
+    background: #004d26;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .order-form-container {
+        max-width: 90%;
+    }
+
+    .academic-levels, .paper-formats, .deadline-options, .category-options {
+        flex-direction: column;
+    }
+}

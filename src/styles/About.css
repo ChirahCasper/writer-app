@@ -1,0 +1,75 @@
+/* About.css */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/public/assets/background.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px; /* Adjust based on your header height */
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff; /* White text for better contrast */
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-header .lead {
+    font-size: 1.25rem;
+    color: #e0e0e0; /* Light gray for the lead text */
+  }
+  
+  .about-story, .about-mission, .about-team {
+    margin-bottom: 40px;
+  }
+  
+  .about-card {
+    background-color: #003366; /* Navy blue background */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #fff; /* White text for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-card h2, .about-card h3, .about-card h4 {
+    color: #fff; /* White text for headings */
+  }
+  
+  .about-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-values {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .about-values .about-card {
+    flex: 1;
+  }
+  
+  .about-team .team-members {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .team-member {
+    flex: 1;
+  }
+  
+  .team-member .role {
+    font-size: 1.1rem;
+    color: #e0e0e0; /* Light gray for role text */
+    margin-bottom: 10px;
+  }

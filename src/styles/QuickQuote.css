@@ -1,0 +1,91 @@
+/* Adjusted Quick Quote Section */
+.quick-quote-container {
+    max-width: 350px;
+    background: #121212;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+/* Reduce input size for a compact look */
+.quick-quote-container input,
+.quick-quote-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Adjust button size */
+.quick-quote-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #040404;
+    color: rgb(83, 79, 79);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.quick-quote-container button:hover {
+    background-color: #19b79a;
+}
+
+  
+  .quick-quote:hover {
+    transform: scale(1.02);
+  }
+  
+  .quick-quote h4 {
+    font-size: 20px;
+    color: #d8d5c7;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .quick-quote select,
+  .quick-quote .form-control {
+    border-radius: 8px;
+    border: 1px solid #FFD700;
+    background: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .quick-quote .btn-outline-secondary {
+    border: 1px solid #FFD700;
+    color: #FFD700;
+  }
+  
+  .quick-quote .btn-outline-secondary:hover {
+    background: #13b665;
+    color: #121212;
+  }
+  
+  .quick-quote .price-display h3 {
+    color: #2f2e2c;
+    font-size: 24px;
+  }
+  
+  .quick-quote .btn-primary {
+    background: linear-gradient(45deg, #FFD700, #FF6347);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .quick-quote .btn-primary:hover {
+    background: linear-gradient(45deg, #FF6347, #FFD700);
+  }
+  
