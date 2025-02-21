@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/writer-app/static/css/main.9c12fcc8.css",
+    "main.js": "/writer-app/static/js/main.67779a37.js",
+    "static/media/background.jpg": "/writer-app/static/media/background.f841c899e0c1bb63670f.jpg",
+    "index.html": "/writer-app/index.html",
+    "main.9c12fcc8.css.map": "/writer-app/static/css/main.9c12fcc8.css.map",
+    "main.67779a37.js.map": "/writer-app/static/js/main.67779a37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c12fcc8.css",
+    "static/js/main.67779a37.js"
+  ]
+}
